@@ -581,7 +581,7 @@ CSQL 인터프리터에서 작업 중인 데이터베이스 이름 및 호스트
     === Get Param Input ===
     isolation_level="tran_rep_class_commit_instance"
 
-**파라미터 값 설정(;SEt)**
+**파라미터 값 설정(;SET)**
 
 특정 파라미터의 값을 설정하기 위해서는 **;Set** 세션 명령어를 사용한다. 동적 변경이 가능한 파라미터만 값을 변경할 수 있으며, 서버 파라미터는 DBA 권한이 있어야만 값을 변경할 수 있다. 동적 변경이 가능한 파라미터 목록은 :ref:`broker-configuration` 를 참고한다. ::
 
