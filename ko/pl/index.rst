@@ -31,7 +31,8 @@ CUBRID는 저장 프로시저와 사용자 정의 함수를 지원하기 위해 
 PL/CSQL
 ===========================
 
-PL/CSQL 프로그래밍 언어는 CUBRID SQL의 절차적 언어로의 확장이다. 
+PL/CSQL(CUBRID`s Procedural Language extension to SQL)은 SQL의 확장된 개념으로 CUBRID에서 지원하는 프로그래밍 언어의 특성을 수용한 SQL의 확장이며, 
+PL/CSQL Block내에서 SQL의 DML(데이터 조작어)문과 Query(검색어)문, 절차형 언어(if, loop)등을 사용하여 절차적 프로그래밍을 가능하게 한 강력한 트랜잭션 언어이다. 
 
 .. toctree::
     :maxdepth: 2
